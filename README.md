@@ -13,6 +13,9 @@
 ## Video
 https://youtu.be/Joat51Dtsvs
 
+## Setup and test for the final project
+<img width="735" alt="test" src="https://user-images.githubusercontent.com/90499269/146453128-40caefa1-3cb7-4007-b84a-575ecb535fca.png">
+
 ## CSV stores the calculation and print in table:
 <img width="894" alt="csv_output" src="https://user-images.githubusercontent.com/90499269/146449671-de864b8d-5e3c-469b-a17e-9dc06ae753b3.png">
 
