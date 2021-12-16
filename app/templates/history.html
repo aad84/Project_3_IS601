@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block body %}
+<h1>History of the Calculations</h1>
+<table class="table table-striped">
+    <tr>
+        <th scope="col">Current user</th>
+        <th scope="col">Time of Calculation</th>
+        <th scope="col">First Number</th>
+        <th scope="col">Second Number</th>
+        <th scope="col">Operation</th>
+        <th scope="col">Result</th>
+    </tr>
+    {% for h in his %}
+    <tr>
+        <td>{{h[0]}}</td>
+        <td>{{h[1]}}</td>
+        <td>{{h[2]}}</td>
+        <td>{{h[3]}}</td>
+        <td>{{h[4]}}</td>
+        <td>{{h[5]}}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}
+https://youtu.be/Joat51Dtsvs

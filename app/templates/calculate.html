@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block body %}
+  <h1>Simple Calculator Program</h1>
+  {% if error %}
+    <p class=error><strong>Error:</strong> {{ error }}
+  {% endif %}
+  <form method=post>
+    <dl>
+      <dt>Enter your first number:
+      <dd><label>
+          <input type=number name=firstNum value="{{
+              request.form.firstNum }}">
+      </label>
+        <dt>Enter your second number:
+      <dd><label>
+          <input type=number name=secondNum value="{{
+              request.form.secondNum }}">
+      </label>
+        <dt>Operation:
+      <dd><label for="addition">Add</label>
+          <input type="radio" name="operation" id="addition" value="addition"/>
+          <br />
+          <label for="subtract">Subtract</label>
+          <input type="radio" name="operation" id="subtract" value="subtraction"/>
+          <br />
+          <label for="multiplication">Multiply</label>
+          <input type="radio" name="operation" id="multiplication" value="multiplication"/>
+          <br />
+          <label for="division">Divide</label>
+          <input type="radio" name="operation" id="division" value="division"/>
+    </dl>
+    <input type=submit value="SUBMIT">
+  </form>
+<a href="/history">Check the History</a>
+{% endblock %}
