@@ -10,4 +10,6 @@
 https://youtu.be/Joat51Dtsvs
 
 ## CSV stores the calculation and print in table:
+<img width="894" alt="csv_output" src="https://user-images.githubusercontent.com/90499269/146449671-de864b8d-5e3c-469b-a17e-9dc06ae753b3.png">
+
 
