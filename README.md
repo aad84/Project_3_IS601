@@ -16,7 +16,3 @@ https://youtu.be/Joat51Dtsvs
 ## CSV stores the calculation and print in table:
 <img width="894" alt="csv_output" src="https://user-images.githubusercontent.com/90499269/146449671-de864b8d-5e3c-469b-a17e-9dc06ae753b3.png">
 
-Testing and Coverage
-<img width="298" alt="final_test" src="https://user-images.githubusercontent.com/90499269/146450077-3d1bfa00-9cfc-4d5c-80cc-b9c5a785cdfd.png">
-
-
